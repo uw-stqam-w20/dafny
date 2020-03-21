@@ -55,6 +55,16 @@ This is a good starting point.
   * `fast_exp.prob.inclass.dfy` template to be used during live class
   * `fast_exp.sol.dfy` instructor provided solution
 
+## Find element in an array
+  * `find.prob.dfy`
+  * `find.prob.inclass.dfy`
+  * `find.sol.dfy`
+  
+## Find maximal element in an array
+  * `find_max.prob.dfy`
+  * `find_max.sol.dfy`
+
 ## Contributors
 
   * Arie Gurfinkel
+  * Unknown (some examples come from lost sources online)
