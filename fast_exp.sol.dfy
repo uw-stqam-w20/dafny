@@ -41,13 +41,15 @@
 
 /**
    Define function exp for computing an exponent of the number. Use the facts that
+   exp(0, n) == 1  if n > 0
    exp(x, 0) == 1
    exp(x, 1) == x
    exp(x, n) == x*exp(x, n-1)
    */
 function exp(x: real, n:nat) : real
 {
-  if (x == 0.0) then 0.0
+  if (x == 0.0 && n == 0) then 1.0
+  else if (x == 0.0) then 0.0
   else if (n == 0) then 1.0
   else x * exp(x, n-1)
 }
@@ -126,8 +128,8 @@ method exp_by_sqr (x0: real, n0: nat) returns (r: real)
   requires x0 >= 0.0;
   ensures r == exp (x0, n0);
 {
-  if (x0 == 0.0) { return 0.0; }
   if (n0 == 0) { return 1.0; }
+  if (x0 == 0.0) { return 0.0; }
   var x, n, y  := x0, n0, 1.0;
   while (n > 1)
     invariant 1 <= n <= n0;
