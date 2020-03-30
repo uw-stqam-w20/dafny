@@ -62,7 +62,14 @@ This is a good starting point.
   
 ## Find maximal element in an array
   * `find_max.prob.dfy`
+  * `find_max.prob.inclass.dfy`
   * `find_max.sol.dfy`
+
+## Binary search in a sorted array
+  * `binary_search.prob.dfy`
+  * `binary_search.prob.inclass.dfy`
+  * `binary_search.sol.dfy`
+
 
 ## Contributors
 
