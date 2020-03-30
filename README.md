@@ -70,8 +70,13 @@ This is a good starting point.
   * `binary_search.prob.inclass.dfy`
   * `binary_search.sol.dfy`
 
+## Bubble sort 
+  * `bubble_sort.prob.dfy`
+  * `bubble_sort.prob.inclass.dfy`
+  * `bubble_sort.sol.dfy`
 
 ## Contributors
 
   * Arie Gurfinkel
-  * Unknown (some examples come from lost sources online)
+  * Unknown (some examples come from public sources online, but the original contributor is lost)
+  * If you know the original author of any of these examples, please let me know 
